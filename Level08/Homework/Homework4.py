@@ -1,0 +1,8 @@
+num_1 = input("What is your first number: ")
+num_2 = input("What is your second number: ")
+print("Number 1 is less than number 2: ", int(num_1) < int(num_2))
+print("Number 1 is more than number 2: ", int(num_1) > int(num_2))
+print("Number 1 is equal or less than number 2: ", int(num_1) <= int(num_2))
+print("Number 1 is more or equal than number 2: ", int(num_1) >= int(num_2))
+print("Number 1 is equal to number 2: ", int(num_1) == int(num_2))
+print("Number 1 is not equal to number 2: ", int(num_1) != int(num_2))
