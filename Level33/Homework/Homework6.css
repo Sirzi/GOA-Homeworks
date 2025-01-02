@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.multicolor-border {
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid red;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid yellow;
+    background-color: white;
+}

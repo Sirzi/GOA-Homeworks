@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antelope Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #ffffff;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 10px;
+            color: #333333;
+        }
+        .card-description {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.6;
+        }
+        .card-footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+        }
+        .card-footer a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #007bff;
+        }
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://example.com/antelope.jpg" alt="Antelope">
+        <div class="card-content">
+            <h2 class="card-title">Graceful Antelope</h2>
+            <p class="card-description">
+                Antelopes are known for their elegance and speed. These majestic creatures are a symbol of freedom in the vast savannahs.
+            </p>
+        </div>
+        <div class="card-footer">
+            <a href="https://en.wikipedia.org/wiki/Antelope" target="_blank">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
