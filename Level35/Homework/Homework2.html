@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Wonders</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* საერთო სტილი სექციებისთვის */
+        .section {
+            height: 100vh; /* თითოეული განყოფილება ეკრანის სიმაღლეზეა */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 800px;
+        }
+
+      
+        .lions {
+            background-image: url('lion-background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+      
+        .dolphins {
+            background-image: url('dolphin-background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="section lions">
+        <h1>Lions: Kings of the Jungle</h1>
+        <p>
+            Lions are known as the kings of the jungle for their strength and majestic presence. 
+            They live in prides and are found in Africa and parts of India.
+        </p>
+    </div>
+
+   
+    <div class="section dolphins">
+        <h1>Dolphins: Guardians of the Sea</h1>
+        <p>
+            Dolphins are intelligent and playful creatures, known for their friendly nature and 
+            unique communication skills. They are often considered symbols of freedom and joy.
+        </p>
+    </div>
+</body>
+</html>

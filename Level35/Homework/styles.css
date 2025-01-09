@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-image: url('goa-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #ff9800;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #e68a00;
+  }
+  
+  .about {
+    padding: 50px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .gallery {
+    padding: 50px;
+    text-align: center;
+    background: #e0f7fa;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-item {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
