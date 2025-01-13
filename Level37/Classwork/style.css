@@ -1,0 +1,28 @@
+body{
+    background-color: linear-gradient(135deg, green, chartreuse);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+h1{
+    font-size: 43px;
+    color: forestgreen ;
+    text-align: center;
+}
+
+
+.card{
+    background-color: green;
+    border-radius: 3px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+
+.card p{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
