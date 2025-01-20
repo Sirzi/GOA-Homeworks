@@ -1,0 +1,28 @@
+h1 {
+    text-decoration: underline; 
+    color: darkgreen;
+}
+
+p {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none; 
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+/* List Styling */
+ul {
+    list-style-type: square; 
+}
+
+ol {
+    list-style-type: decimal; 
+}

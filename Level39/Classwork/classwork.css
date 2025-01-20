@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+.list-style-type li {
+    list-style-type: disc;
+}
+
+.list-style-type li:nth-child(2) {
+    list-style-type: circle;
+}
+
+.list-style-type li:nth-child(3) {
+    list-style-type: square;
+}
+
+.list-style-type li:nth-child(4) {
+    list-style-type: decimal;
+}
+
+.list-style-type li:nth-child(5) {
+    list-style-type: upper-roman;
+}
+
+.list-style-position li {
+    list-style-position: inside;
+}
+
+.list-style-position li:nth-child(2) {
+    list-style-position: outside;
+}
+
+.list-style-image {
+    list-style-image: url('https://via.placeholder.com/20');
+}
+
+.list-style-image li {
+    margin: 5px 0;
+}

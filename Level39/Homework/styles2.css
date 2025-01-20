@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white;
+    color: gray;
+}
+
+header {
+    background: lime;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+ul.birds-list {
+    list-style-type: circle;
+    padding-left: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
