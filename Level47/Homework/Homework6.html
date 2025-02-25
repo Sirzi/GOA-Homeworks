@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Grid</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(3, 100px);
+            gap: 10px;
+        }
+        .rect {
+            border: 2px solid red;
+        }
+        .rect.blue {
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect blue"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+    </div>
+</body>
+</html>
