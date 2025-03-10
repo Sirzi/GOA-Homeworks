@@ -1,6 +1,6 @@
 def bmi(weight, height):
 
-    bmi_value = weight / (height ** 2)
+    bmi_calue= weight / (height ** 2)
     
 if bmi_value <= 18.5:
         return "Underweight"
@@ -8,4 +8,3 @@ if bmi_value <= 18.5:
         return "Normal"
     elif bmi_value <= 30.0:
         return "Overweight"
-    else:
