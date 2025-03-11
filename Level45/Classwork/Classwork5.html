@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+    .container {
+      width: 600px;
+      height: 300px;
+      border: 5px solid black;
+      position: relative;
+    }
+
+    .rectangle {
+      width: 100px;
+      height: 80px;
+      border: 5px solid;
+      position: absolute;
+    }
+
+    .green {
+      border-color: green;
+    }
+
+    .red {
+      border-color: red;
+    }
+
+    .green.top.left {
+      top: 5px;
+      left: 5px;
+    }
+
+    .green.top.right {
+      top: 5px;
+      right: 5px;
+    }
+
+    .red.bottom.left {
+      bottom: 5px;
+      left: 5px;
+    }
+
+    .red.bottom.right {
+      bottom: 5px;
+      right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="rectangle green top.left"></div>
+  <div class="rectangle green top.right"></div>
+  <div class="rectangle red bottom.left"></div>
+  <div class="rectangle red bottom.right"></div>
+</div>
+
+</body>
+</html>
